@@ -5,9 +5,7 @@ class Solution(object):
         :rtype: List[int]
         """
         digits=digits[::-1]
-        d=0
-        for i in digits:
-            d+=1
+        d=len(digits)
 
         if d==digits.count(9):
             digits=[1]

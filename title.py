@@ -3,9 +3,7 @@ class Solution:
         title=title.split(" ")
         index=0
         for i in title:
-            c=0
-            for j in i:
-                c+=1
+            c=len(i)
             if c>2:
                 title[index]=title[index].capitalize()
             else:

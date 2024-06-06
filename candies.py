@@ -4,14 +4,10 @@ class Solution(object):
         :type candyType: List[int]
         :rtype: int
         """
-        c=d=0
-        for i in candyType:
-            c+=1
+        c=len(candyType)
         candyType=set(candyType)
-        
-        for i in candyType:
-            d+=1
-        if d>c//2:
+        len(candyType)
+        if len(candyType)>c//2:
             return c//2
         else:
-            return d
+            return len(candyType)

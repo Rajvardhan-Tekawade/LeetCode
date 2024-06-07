@@ -2,7 +2,7 @@
 class Solution:
     def checkValid(self, matrix: list[list[int]]) -> bool:
         
-        l=b=0
+        l=0
         t=[]
         for i in matrix[0]:
             l+=1

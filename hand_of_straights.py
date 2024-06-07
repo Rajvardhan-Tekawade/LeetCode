@@ -1,5 +1,5 @@
 class Solution:
-    def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
+    def isNStraightHand(self, hand, groupSize) -> bool:
         hand_size = len(hand)
 
         if hand_size % groupSize != 0:

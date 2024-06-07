@@ -1,5 +1,5 @@
 class Solution:
-    def replaceWords(self, dictionary: List[str], sentence: str) -> str:
+    def replaceWords(self, dictionary, sentence: str) -> str:
         sentence=sentence.split(" ")
         for i in dictionary:
             for j in range(len(sentence)):
